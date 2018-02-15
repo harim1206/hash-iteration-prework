@@ -9,8 +9,8 @@
 def select_winner(passengers)
   # add the code snippet here!
   passengers.find { |suite, name|
-    if name[1].start_with?("A")
-      return name[1]
+    if name.start_with?("A")
+      return name
     end
 
 
